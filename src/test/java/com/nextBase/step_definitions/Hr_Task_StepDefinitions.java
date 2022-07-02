@@ -144,6 +144,7 @@ public class Hr_Task_StepDefinitions {
     public void userSeesNewTaskOnTheTaskPage() {
         String expectedAttribute="tasks-grid-group-link";
 
+
        Assert.assertTrue(expectedAttribute,hrTaskPage.underSoccerTeamCreatedTask.getAttribute("class").contains("tasks-grid-group-link"));
     }
 }
